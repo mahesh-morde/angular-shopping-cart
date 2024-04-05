@@ -19,11 +19,11 @@
     </div>
 
     <ng-template #noProducts>
-      <p class="no-products">No product added</p>
+      <p class="no-products">No product added <span routerLink="/catalogue">lets shop</span></p>
     </ng-template>
   </div>
 
-  <div class="payment-details">
+  <div *ngIf="cartService.cartItems.length > 0" class="payment-details">
     <h2>Payment Details</h2>
     <h4 class="total-amount">Total Amount: {{ getTotal() | currency }}</h4>
     <h4 class="total-amount">Estimated Delivery Date: {{ estimatedDeliveryDate }}</h4>
