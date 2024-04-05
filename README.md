@@ -1,4 +1,38 @@
-# AngularShoppingCart
+# E-SPARE - Angular Shopping Cart Application
+
+E-SPARE is a web application developed using Angular for managing shopping cart functionality. It allows users to browse through a catalog of products, add items to their cart, and proceed to checkout. This README provides an overview of the project structure, setup instructions, and usage guidelines.
+
+## Features
+
+- Browse and view a catalog of products.
+- Add products to the shopping cart.
+- View and manage items in the cart.
+- Proceed to checkout and place an order.
+
+## Technologies Used
+
+- Angular: Frontend JavaScript framework for building the user interface.
+- TypeScript: Programming language used with Angular.
+- HTML/CSS: Markup and styling for the application.
+- Node.js: JavaScript runtime environment.
+- npm: Package manager for installing project dependencies.
+- Bootstrap: Frontend framework for responsive design and UI components.
+- ngx-bootstrap: Angular implementation of Bootstrap components.
+
+
+## Experience the live website here
+
+[E-SPARE](https://angular-shopping-cart.onrender.com/)
+
+
+## Check Video Here
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VI...)](https://youtu.be/aM41ONzzBBo)
+
+
+
+
+
+## AngularShoppingCart
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.3.
 
