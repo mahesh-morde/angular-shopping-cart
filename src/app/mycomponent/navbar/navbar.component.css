@@ -5,12 +5,19 @@
     margin-right: 30px;
     
   }
+  
 
   .navbar-brand{
+    margin-left: 10px;
+  }
+
+  img{
     margin-left: 30px;
+    height: 50px;
+    width: 50px;
   }
 
   b{
-   color: rgb(159, 202, 0);
-    font-size: large;
+   color: rgb(0, 138, 202);
+    font-size: larger;
   }
