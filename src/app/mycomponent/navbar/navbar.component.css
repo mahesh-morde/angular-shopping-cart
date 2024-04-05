@@ -1,0 +1,23 @@
+.cart-link {
+    display: block;
+    text-decoration: none;
+  }
+  
+  .cart-icon {
+    height: 50px;
+    width: 50px;
+    
+  }
+
+  .cart-link {
+    float: right;
+    margin-left: 20px;
+  }  
+
+
+.navbar-brand {
+    margin-right: 20px; /* Adjust margin as needed */
+  }
+  
+
+  
