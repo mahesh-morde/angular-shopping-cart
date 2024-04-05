@@ -1,9 +1,9 @@
-
-  
-  .product-container {
-    display: flex;
-    flex-wrap: wrap;
-  }
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
   
   .product-card {
     border: 1px solid #ccc;
@@ -61,3 +61,9 @@
     font-size: 16px;
   }
   
+
+  @media screen and (max-width: 768px) {
+    .product-container {
+      justify-content: flex-start; /* Align items to the left on smaller screens */
+    }
+  }
